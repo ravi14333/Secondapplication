@@ -1,0 +1,33 @@
+<html>
+<head>
+	<script type="text/javascript" src="myjavascript.js">
+		
+
+	</script>
+	
+</head>
+<body onload="todaydate()">
+<h1>time</h1>
+<p id="date"></p>
+<h3>Live input Display (oninput)</h3>
+<input type="text" oninput="inputdata()" id="input" required>
+<p id="inputp"></p>
+<h3>random quotes</h3>
+<button type="button" onclick="randomfun()">random quotes</button> 
+<p id="resmsg"></p>
+
+<img src="https://assets.telegraphindia.com/telegraph/2024/Apr/1713163069_1688570366_jagan-mohan-reddy.jpg" onmouseover="handlemouseover()" onmouseout="handlemouseout()" id="imgid" style="width: 200px;" />
+<p id="imgmsg"></p>
+<select id="selectid" onchange="getlocation()">
+	<option>Hyderbad</option>
+	<option>Ap</option>
+	<option>Delhi</option>
+	<option>Ts</option>
+	<option>Bangulor</option>
+	<option>Vizag</option>
+</select>
+<p id="selectres"></p>
+<button type="button" ondblclick="ondoubleclick()" >Double click button</button>
+<p id="doubleclickres"></p>
+</body>
+</html>
